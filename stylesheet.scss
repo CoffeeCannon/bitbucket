@@ -1,7 +1,7 @@
 $screen-sm-min: 320px;
-$screen-sm-max: 759px
+$screen-sm-max: 759px;
 $screen-md-min: 760px;
-$screen-mm-max: 1199px
+$screen-md-max: 1199px;
 $screen-lg-min: 1200px;
 
 @media (max-width: $screen-sm-max) {
@@ -11,5 +11,21 @@ $screen-lg-min: 1200px;
     
 }
 @media (min-width: $screen-lg-min) {    
+    .socialMediaBanner{
+        position: absolute;
+        top: 0vw;
+        width: auto;
+        margin: 1.57vw 1vw;        
+        padding: 0vw;
+        border: 0vw;
+    }
     
+    .socialMediaIcon{
+        display: inline-block;
+        max-width: 2.86vw;
+        max-height: 2.86vw;
+        margin: 0vw 0.393vw;        
+        padding: 0vw;
+        border: 0vw
+    }
 }

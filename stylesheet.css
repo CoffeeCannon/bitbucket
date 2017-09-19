@@ -1,0 +1,18 @@
+@media (min-width: 1200px) {
+  .socialMediaBanner {
+    position: absolute;
+    top: 0vw;
+    width: auto;
+    margin: 1.57vw 1vw;
+    padding: 0vw;
+    border: 0vw; }
+
+  .socialMediaIcon {
+    display: inline-block;
+    max-width: 2.86vw;
+    max-height: 2.86vw;
+    margin: 0vw 0.393vw;
+    padding: 0vw;
+    border: 0vw; } }
+
+/*# sourceMappingURL=stylesheet.css.map */
