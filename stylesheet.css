@@ -49,4 +49,23 @@
     margin-top: 2.21vw;
     background-color: white; }
 
+#contentBlockB {
+  background-color: white;
+  padding-top: 5.93vw;
+  padding-bottom: 3.57vw; }
+  #contentBlockB #subtitleB {
+    margin: 0vw;
+    padding: 0vw;
+    padding-top: 0.214vw; }
+    #contentBlockB #subtitleB div {
+      width: 19.9vw;
+      height: 0.571vw;
+      background-color: #286191; }
+    #contentBlockB #subtitleB p {
+      width: 20.8vw;
+      font-family: monospace;
+      font-weight: 500;
+      font-size: 2.15vw;
+      color: #286191; }
+
 /*# sourceMappingURL=stylesheet.css.map */

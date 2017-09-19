@@ -1,3 +1,5 @@
+//I was not able to gain access to the correct font, substituted with monospace. This is obviously not ideal, but container widths should still be to specification.
+
 $screen-sm-min: 320px;
 $screen-sm-max: 759px;
 $screen-md-min: 760px;
@@ -60,9 +62,7 @@ $screen-lg-min: 1200px;
         font-family: monospace;
         font-weight: 500;
         font-size: 2.6vw;
-        color: rgb(255,255,255);
-        
-        //was not able to gain access to the correct font, substituted with monospace
+        color: rgb(255,255,255);       
     }
     div{
         width: 43.9vw;
@@ -73,3 +73,31 @@ $screen-lg-min: 1200px;
     }
 }
 
+#contentBlockB{
+    background-color: rgb(255,255,255);
+    padding-top: 5.93vw;
+    padding-bottom: 3.57vw;    
+    
+    #subtitleB{
+        margin: 0vw;
+        padding: 0vw;
+        padding-top: 0.214vw;    
+        
+        div{            
+            width: 19.9vw;
+            height: 0.571vw;
+            background-color: rgb(40,97,145);            
+        }
+        p{
+            width: 20.8vw;
+            font-family: monospace;
+            font-weight: 500;
+            font-size: 2.15vw;
+            color: rgb(40,97,145);
+        }
+    }
+    
+    #infoText{
+        
+    }
+}
