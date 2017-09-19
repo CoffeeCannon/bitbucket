@@ -13,7 +13,9 @@ $screen-lg-min: 1200px;
 @media (min-width: $screen-lg-min) {    
     .socialMediaBanner{
         position: absolute;
+        z-index: 5;
         top: 0vw;
+        left :0vw;
         width: auto;
         margin: 1.57vw 1vw;        
         padding: 0vw;
@@ -28,4 +30,19 @@ $screen-lg-min: 1200px;
         padding: 0vw;
         border: 0vw
     }
+}
+
+.contentBlock{
+    position: relative;
+    z-index: 1;
+    width: 100vw;
+    height: 44.2vw;
+    margin: 0vw;
+    padding: 0vw 13.4vw;
+    border: 0vw;    
+}
+
+#contentBlockA{
+    background-image: url(imageAssets/header_bg.jpg); 
+    background-repeat: no-repeat;
 }

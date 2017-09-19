@@ -1,7 +1,9 @@
 @media (min-width: 1200px) {
   .socialMediaBanner {
     position: absolute;
+    z-index: 5;
     top: 0vw;
+    left: 0vw;
     width: auto;
     margin: 1.57vw 1vw;
     padding: 0vw;
@@ -14,5 +16,17 @@
     margin: 0vw 0.393vw;
     padding: 0vw;
     border: 0vw; } }
+.contentBlock {
+  position: relative;
+  z-index: 1;
+  width: 100vw;
+  height: 44.2vw;
+  margin: 0vw;
+  padding: 0vw 13.4vw;
+  border: 0vw; }
+
+#contentBlockA {
+  background-image: url(imageAssets/header_bg.jpg);
+  background-repeat: no-repeat; }
 
 /*# sourceMappingURL=stylesheet.css.map */
