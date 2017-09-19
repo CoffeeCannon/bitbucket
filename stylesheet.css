@@ -6,27 +6,47 @@
     left: 0vw;
     width: auto;
     margin: 1.57vw 1vw;
-    padding: 0vw;
-    border: 0vw; }
+    padding: 0vw; }
 
   .socialMediaIcon {
     display: inline-block;
     max-width: 2.86vw;
     max-height: 2.86vw;
     margin: 0vw 0.393vw;
-    padding: 0vw;
-    border: 0vw; } }
+    padding: 0vw; } }
 .contentBlock {
   position: relative;
   z-index: 1;
   width: 100vw;
-  height: 44.2vw;
+  height: 45.5vw;
   margin: 0vw;
-  padding: 0vw 13.4vw;
-  border: 0vw; }
+  padding: 0vw 13.4vw; }
 
 #contentBlockA {
   background-image: url(imageAssets/header_bg.jpg);
   background-repeat: no-repeat; }
+  #contentBlockA img {
+    width: 14vw;
+    height: 8.43vw;
+    margin: 0 28.8vw;
+    margin-top: 11.5vw;
+    margin-bottom: 5.14vw;
+    padding: 0vw; }
+  #contentBlockA p {
+    width: 43.9vw;
+    height: 5.71vw;
+    margin: 0 14.7vw;
+    text-align: center;
+    line-height: 100%;
+    font-family: monospace;
+    font-weight: 500;
+    font-size: 2.6vw;
+    color: white; }
+  #contentBlockA div {
+    width: 43.9vw;
+    height: 0.0714vw;
+    margin: 0 14.7vw;
+    margin-top: 2.21vw;
+    background-color: white; }
 
 /*# sourceMappingURL=stylesheet.css.map */
