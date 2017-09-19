@@ -1,0 +1,15 @@
+$screen-sm-min: 320px;
+$screen-sm-max: 759px
+$screen-md-min: 760px;
+$screen-mm-max: 1199px
+$screen-lg-min: 1200px;
+
+@media (max-width: $screen-sm-max) {
+    
+}
+@media (min-width: $screen-md-min) and (max-width: $screen-md-max){
+    
+}
+@media (min-width: $screen-lg-min) {    
+    
+}
