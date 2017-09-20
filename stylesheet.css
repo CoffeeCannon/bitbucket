@@ -79,4 +79,29 @@
       font-family: sans-serif;
       font-size: 1.7vw; }
 
+#contentBlockC {
+  height: 56.3vw;
+  padding-top: 6.21vw;
+  background-image: url(imageAssets/clients_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: contain; }
+  #contentBlockC p {
+    width: 24.5vw;
+    height: 2.14vw;
+    margin: auto;
+    margin-bottom: 1.5vw;
+    text-align: center;
+    line-height: 100%;
+    font-family: monospace;
+    font-size: 3vw;
+    color: white; }
+  #contentBlockC #lineD {
+    height: 0.0714vw;
+    width: 24.5vw;
+    margin: auto;
+    margin-bottom: 5.71vw;
+    background-color: white; }
+  #contentBlockC .col {
+    background-color: #213241; }
+
 /*# sourceMappingURL=stylesheet.css.map */
