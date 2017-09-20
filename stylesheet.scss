@@ -1,13 +1,14 @@
-//I was not able to gain access to the correct font, substituted with monospace. This is obviously not ideal, but container widths should still be to specification.
+//I was not able to gain access to the correct font, substituted with monospace. This is obviously not ideal, text is grossly misrepresented, but container widths should still be to specification.
 
 $screen-sm-min: 320px;
-$screen-sm-max: 759px;
-$screen-md-min: 760px;
+$screen-sm-max: 767px;
+$screen-md-min: 768px;
 $screen-md-max: 1199px;
 $screen-lg-min: 1200px;
 
 @media (max-width: $screen-sm-max) {
-        .socialMediaBanner{
+       
+    .socialMediaBanner{
         position: absolute;
         z-index: 5;
         top: 0vw;
@@ -18,10 +19,10 @@ $screen-lg-min: 1200px;
     }
     
     .socialMediaIcon{
-        display: inline-block;
-        max-width: 2.86vw;
-        max-height: 2.86vw;
-        margin: 0vw 0.393vw;        
+        display: block;
+        max-width: 5vw;
+        max-height: 5vw;
+        margin: 5vw 0.393vw;        
         padding: 0vw;        
     }
 
@@ -40,9 +41,9 @@ $screen-lg-min: 1200px;
         background-size: contain;
 
         img{
-            width: 14vw;
-            height: 8.43vw;
-            margin: 0 28.8vw;
+            width: 35vw;
+            height: auto;
+            margin: 0 18.3vw;
             margin-top: 11.5vw;
             margin-bottom: 5.14vw;
             padding: 0vw;        
@@ -54,7 +55,7 @@ $screen-lg-min: 1200px;
             text-align: center;
             line-height: 100%;        
             font-family: monospace;        
-            font-size: 2.6vw;
+            font-size: 3vw;
             color: rgb(255,255,255);       
         }
         div{
@@ -66,156 +67,168 @@ $screen-lg-min: 1200px;
         }
     }
 
-    #contentBlockB{    
+    #contentBlockB{  
         margin: 0vw;   
         background-color: rgb(255,255,255);
         padding-top: 5.93vw;
-        padding-bottom: 9.57vw;    
-        padding-right: 0vw;
+        padding-bottom: 9.57vw;  
+                
 
         #subtitleB{
             display: inline-block;
-            vertical-align: top;
-            margin: 0vw;
-            margin-right: 4.57vw;
+            width: 100%;        
+            margin: 0vw;         
             padding: 0vw;
-            padding-top: 0.214vw;    
+            padding-top: 0.214vw;  
+            align-content: center;
 
             div{            
                 width: 19.9vw;
                 height: 0.571vw;
+                margin: auto;
                 background-color: rgb(40,97,145);            
             }
             p{
-                width: 20.8vw;
+                width: 70vw;
+                margin: auto;
+                text-align: center;
                 font-family: monospace;            
-                font-size: 2.1vw;
+                font-size: 3vw;
                 color: rgb(40,97,145);
             }
         }
 
         #infoText{
             display: inline-block;
-            width: 53.2vw;
+            width: 100%;
             margin: 0vw;
+            margin-top: 1vw;
             padding: 0vw;
 
             p{
+                margin: auto;
+                text-align: center;
                 font-family: sans-serif;            
-                font-size: 1.7vw;
+                font-size: 2.8vw;
             }
 
         }
     }
 
     #contentBlockC{
-        height: 56.3vw;
-        padding-top: 6.21vw;
-        padding-bottom: 0vw;
+        height: auto;
+        padding-top: 5vw;
+        padding-bottom: 5vw;
         margin-bottom: 0vw;
-        background-image: url(imageAssets/clients_bg.jpg); 
-        background-repeat: no-repeat;
-        background-size: cover;
+        background-color: rgb(100,100,100);
 
         p{
-            width: 24.5vw;
+            width: auto;
             height: 2.14vw;
-            margin: auto;
-
-            margin-bottom: 1.5vw;
+            margin: auto;            
+            margin-bottom: 3vw;
             text-align: center;
             line-height: 100%;        
             font-family: monospace;        
-            font-size: 3vw;
+            font-size: 4vw;
             color: rgb(255,255,255);  
         }
         #lineD{
-            height: 0.0714vw;
+            height: 0.35vw;
             width: 24.5vw;
             margin: auto;
             margin-bottom: 5.71vw;
             background-color: rgb(255,255,255);
-        }     
-        .col{       
-            width: 16.1vw;
-            height: 16.1vw;
-            margin: 0 0.679vw;        
-            background-color: rgb(33,50,65);        
-        }    
+        }   
+        .col-md{                
+            margin: 0 0.679vw; 
+            margin-bottom: 1.21vw;
+            background-color: rgb(33,50,65);
+            align-content: center;
+        }
         #row2{
-            .col{
+            .col-md{
                 margin-top: 1.21vw;
             }
         }
         .logoImg{
-            width: 100%;
+            width: 70%;
             height: auto;
+            display: block;
+            margin: auto;
         }
     }
 
     #contactBlock{
-        height: 37.6vw;    
+        height: auto;    
         padding-left: 13.4vw;
         padding-top: 6.71vw;
-
+        align-content: center;
+        
         #contactText{
-            display: inline-block;
-            width: 43.2vw;
-            height: 26.8vw;
+            display: block;
+            width: 65vw;
+            height: auto;
+            margin: auto;
+            
             #subtitleCon{
-                width: 43.2vw;
+                width: auto;
                 height: 2.5vw;            
                 margin-bottom: 1.42vw;
                 line-height: 100%;  
                 text-align: center;             
                 font-family: monospace;        
-                font-size: 2.6vw;
+                font-size: 4vw;
                 color: rgb(30,47,62); 
             }
             div{
-                height: 0.0714vw;
-                width: 43.2vw;       
+                height: 0.5vw;
+                width: 43.2vw;  
+                margin: auto;
                 margin-bottom: 3.64vw;
                 background-color: rgb(30,47,62);
             }        
             .text{     
                 display: inline-block;
-                margin-right: 23vw;
-                font-size: 1.3vw;            
+                margin-right: 4vw;
+                font-size: 3.8vw;            
                 color: rgb(30,47,62); 
             }
             .boldText{
                 display: inline-block;
                 font-family: monospace;       
-                font-size: 1.5vw;            
+                font-size: 4vw;            
                 color: rgb(30,47,62); 
             }
             #textBlock{
-                width: 43.2vw;
+                width: auto;
                 margin: 0vw;
                 margin-bottom: 3vw;
+                font-size: 3.8vw;  
+                text-align: center;
             }
         }    
         #contactForm{         
-            width: 24.1vw;
-            display: inline-block;
-            margin: 0vw;
-            margin-left: 2.84vw;
+            width:  70vw;
+            display: block;
+            margin: auto;            
             padding-top: 1.65vw;
             vertical-align: top;
-
+            
+        
             input{
-                width: 24.4vw;
-                height: 3.79vw;
+                width: 70vw;
+                height: 8vw;               
                 margin-bottom: 1.21vw;
                 padding: 1.21vw 1.36vw;
                 border: 0vw;
                 background-color: rgb(242,243,243);             
                 box-shadow: 0 4px 2px -2px gray;
+                font-size: 3vw;
             }
             #messageI{
-                width: 24.4vw;
-                height: 6.71vw;     
+                width: 70vw;
+                height: 15vw;     
                 margin-bottom: 1.21vw;
                 padding: 1.21vw 1.36vw;
                 border: 0vw;
@@ -225,19 +238,25 @@ $screen-lg-min: 1200px;
             }
             #submitB{
                 background-color: rgb(40,97,145);
-                color: rgb(255,255,255);           
+                color: rgb(255,255,255);      
+                font-size: 3vw;
+                margin-bottom: 2vw;
             }
             *::-webkit-input-placeholder {
                 color: rgb(87,99,110);
+                font-size: 3vw;
             }
             *:-moz-placeholder {            
                 color: rgb(87,99,110);
+                font-size: 3vw;
             }
             *::-moz-placeholder {            
                 color: rgb(87,99,110);
+                font-size: 3vw;
             }
             *:-ms-input-placeholder {            
                 color: rgb(87,99,110);
+                font-size: 3vw;
             }
         }    
     }
@@ -394,16 +413,17 @@ $screen-lg-min: 1200px;
             margin-bottom: 5.71vw;
             background-color: rgb(255,255,255);
         }     
-        .col{       
+        
+        .col-md{
             width: 16.1vw;
             height: 16.1vw;
             margin: 0 0.679vw;        
-            background-color: rgb(33,50,65);        
-        }    
+            background-color: rgb(33,50,65);   
+        }
         #row2{
-            .col{
+            .col-md{
                 margin-top: 1.21vw;
-            }
+            }           
         }
         .logoImg{
             width: 100%;
@@ -657,14 +677,14 @@ $screen-lg-min: 1200px;
             margin-bottom: 5.71vw;
             background-color: rgb(255,255,255);
         }     
-        .col{       
+        .col-md{       
             width: 16.1vw;
             height: 16.1vw;
             margin: 0 0.679vw;        
             background-color: rgb(33,50,65);        
         }    
         #row2{
-            .col{
+            .col-md{
                 margin-top: 1.21vw;
             }
         }
