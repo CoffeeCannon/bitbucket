@@ -50,6 +50,7 @@
     background-color: white; }
 
 #contentBlockB {
+  margin: 0vw;
   background-color: white;
   padding-top: 5.93vw;
   padding-bottom: 9.57vw;
@@ -86,7 +87,7 @@
   margin-bottom: 0vw;
   background-image: url(imageAssets/clients_bg.jpg);
   background-repeat: no-repeat;
-  background-size: contain; }
+  background-size: cover; }
   #contentBlockC p {
     width: 24.5vw;
     height: 2.14vw;
@@ -115,6 +116,74 @@
     height: auto; }
 
 #contactBlock {
-  height: 44.3vw; }
+  height: 37.6vw;
+  padding-left: 13.4vw;
+  padding-top: 6.71vw; }
+  #contactBlock #contactText {
+    display: inline-block;
+    width: 43.2vw;
+    height: 26.8vw; }
+    #contactBlock #contactText #subtitleCon {
+      width: 43.2vw;
+      height: 2.5vw;
+      margin-bottom: 1.42vw;
+      line-height: 100%;
+      text-align: center;
+      font-family: monospace;
+      font-size: 2.6vw;
+      color: #1e2f3e; }
+    #contactBlock #contactText div {
+      height: 0.0714vw;
+      width: 43.2vw;
+      margin-bottom: 3.64vw;
+      background-color: #1e2f3e; }
+    #contactBlock #contactText .text {
+      display: inline-block;
+      margin-right: 23vw;
+      font-size: 1.3vw;
+      color: #1e2f3e; }
+    #contactBlock #contactText .boldText {
+      display: inline-block;
+      font-family: monospace;
+      font-size: 1.5vw;
+      color: #1e2f3e; }
+    #contactBlock #contactText #textBlock {
+      width: 43.2vw;
+      margin: 0vw;
+      margin-bottom: 3vw; }
+  #contactBlock #contactForm {
+    width: 24.1vw;
+    display: inline-block;
+    margin: 0vw;
+    margin-left: 2.84vw;
+    padding-top: 1.65vw;
+    vertical-align: top; }
+    #contactBlock #contactForm input {
+      width: 24.4vw;
+      height: 3.79vw;
+      margin-bottom: 1.21vw;
+      padding: 1.21vw 1.36vw;
+      border: 0vw;
+      background-color: #f2f3f3;
+      box-shadow: 0 4px 2px -2px gray; }
+    #contactBlock #contactForm #messageI {
+      width: 24.4vw;
+      height: 6.71vw;
+      margin-bottom: 1.21vw;
+      padding: 1.21vw 1.36vw;
+      border: 0vw;
+      background-color: #f2f3f3;
+      box-shadow: 0 4px 2px -2px gray; }
+    #contactBlock #contactForm #submitB {
+      background-color: #286191;
+      color: white; }
+    #contactBlock #contactForm *::-webkit-input-placeholder {
+      color: #57636e; }
+    #contactBlock #contactForm *:-moz-placeholder {
+      color: #57636e; }
+    #contactBlock #contactForm *::-moz-placeholder {
+      color: #57636e; }
+    #contactBlock #contactForm *:-ms-input-placeholder {
+      color: #57636e; }
 
 /*# sourceMappingURL=stylesheet.css.map */

@@ -73,7 +73,8 @@ $screen-lg-min: 1200px;
     }
 }
 
-#contentBlockB{
+#contentBlockB{    
+    margin: 0vw;   
     background-color: rgb(255,255,255);
     padding-top: 5.93vw;
     padding-bottom: 9.57vw;    
@@ -121,7 +122,7 @@ $screen-lg-min: 1200px;
     margin-bottom: 0vw;
     background-image: url(imageAssets/clients_bg.jpg); 
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     
     p{
         width: 24.5vw;
@@ -160,5 +161,90 @@ $screen-lg-min: 1200px;
 }
 
 #contactBlock{
-    height: 44.3vw;
+    height: 37.6vw;    
+    padding-left: 13.4vw;
+    padding-top: 6.71vw;
+    
+    #contactText{
+        display: inline-block;
+        width: 43.2vw;
+        height: 26.8vw;
+        #subtitleCon{
+            width: 43.2vw;
+            height: 2.5vw;            
+            margin-bottom: 1.42vw;
+            line-height: 100%;  
+            text-align: center;             
+            font-family: monospace;        
+            font-size: 2.6vw;
+            color: rgb(30,47,62); 
+        }
+        div{
+            height: 0.0714vw;
+            width: 43.2vw;       
+            margin-bottom: 3.64vw;
+            background-color: rgb(30,47,62);
+        }        
+        .text{     
+            display: inline-block;
+            margin-right: 23vw;
+            font-size: 1.3vw;            
+            color: rgb(30,47,62); 
+        }
+        .boldText{
+            display: inline-block;
+            font-family: monospace;       
+            font-size: 1.5vw;            
+            color: rgb(30,47,62); 
+        }
+        #textBlock{
+            width: 43.2vw;
+            margin: 0vw;
+            margin-bottom: 3vw;
+        }
+    }
+    #contactForm{         
+        width: 24.1vw;
+        display: inline-block;
+        margin: 0vw;
+        margin-left: 2.84vw;
+        padding-top: 1.65vw;
+        vertical-align: top;
+        
+        input{
+            width: 24.4vw;
+            height: 3.79vw;
+            margin-bottom: 1.21vw;
+            padding: 1.21vw 1.36vw;
+            border: 0vw;
+            background-color: rgb(242,243,243);             
+            box-shadow: 0 4px 2px -2px gray;
+        }
+        #messageI{
+            width: 24.4vw;
+            height: 6.71vw;     
+            margin-bottom: 1.21vw;
+            padding: 1.21vw 1.36vw;
+            border: 0vw;
+            background-color: rgb(242,243,243);             
+            box-shadow: 0 4px 2px -2px gray;
+                  
+        }
+        #submitB{
+            background-color: rgb(40,97,145);
+            color: rgb(255,255,255);           
+        }
+        *::-webkit-input-placeholder {
+            color: rgb(87,99,110);
+        }
+        *:-moz-placeholder {            
+            color: rgb(87,99,110);
+        }
+        *::-moz-placeholder {            
+            color: rgb(87,99,110);
+        }
+        *:-ms-input-placeholder {            
+            color: rgb(87,99,110);
+        }
+    }
 }
