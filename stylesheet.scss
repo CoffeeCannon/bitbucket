@@ -202,7 +202,7 @@ $screen-lg-min: 1200px;
             margin: 0vw;
             margin-bottom: 3vw;
         }
-    }
+    }    
     #contactForm{         
         width: 24.1vw;
         display: inline-block;
@@ -246,5 +246,21 @@ $screen-lg-min: 1200px;
         *:-ms-input-placeholder {            
             color: rgb(87,99,110);
         }
+    }    
+}
+
+.footer{
+    padding: 2.86vw 14.3vw;
+    background-color: rgb(33,50,65);    
+    
+    p{
+        color: rgb(255,255,255);
+        font-size: 1.1vw;
+    }
+    .footerPA{
+        float: left;
+    }
+    .footerPB{
+        float: right;
     }
 }

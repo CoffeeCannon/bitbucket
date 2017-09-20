@@ -186,4 +186,15 @@
     #contactBlock #contactForm *:-ms-input-placeholder {
       color: #57636e; }
 
+.footer {
+  padding: 2.86vw 14.3vw;
+  background-color: #213241; }
+  .footer p {
+    color: white;
+    font-size: 1.1vw; }
+  .footer .footerPA {
+    float: left; }
+  .footer .footerPB {
+    float: right; }
+
 /*# sourceMappingURL=stylesheet.css.map */
