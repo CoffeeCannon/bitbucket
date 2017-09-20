@@ -7,10 +7,525 @@ $screen-md-max: 1199px;
 $screen-lg-min: 1200px;
 
 @media (max-width: $screen-sm-max) {
+        .socialMediaBanner{
+        position: absolute;
+        z-index: 5;
+        top: 0vw;
+        left :0vw;
+        width: auto;
+        margin: 1.57vw 1vw;        
+        padding: 0vw;        
+    }
     
+    .socialMediaIcon{
+        display: inline-block;
+        max-width: 2.86vw;
+        max-height: 2.86vw;
+        margin: 0vw 0.393vw;        
+        padding: 0vw;        
+    }
+
+    .contentBlock{
+        position: relative;
+        z-index: 1;
+        width: 100vw;    
+        margin: 0vw;
+        padding: 0vw 13.4vw;        
+    }
+
+    #contentBlockA{
+        height: 45.5vw;
+        background-image: url(imageAssets/header_bg.jpg); 
+        background-repeat: no-repeat;
+        background-size: contain;
+
+        img{
+            width: 14vw;
+            height: 8.43vw;
+            margin: 0 28.8vw;
+            margin-top: 11.5vw;
+            margin-bottom: 5.14vw;
+            padding: 0vw;        
+        }
+        p{
+            width: 43.9vw;
+            height: 5.71vw;
+            margin: 0 14.7vw;
+            text-align: center;
+            line-height: 100%;        
+            font-family: monospace;        
+            font-size: 2.6vw;
+            color: rgb(255,255,255);       
+        }
+        div{
+            width: 43.9vw;
+            height: 0.0714vw;
+            margin: 0 14.7vw;
+            margin-top: 2.21vw;      
+            background-color: rgb(255,255,255);
+        }
+    }
+
+    #contentBlockB{    
+        margin: 0vw;   
+        background-color: rgb(255,255,255);
+        padding-top: 5.93vw;
+        padding-bottom: 9.57vw;    
+        padding-right: 0vw;
+
+        #subtitleB{
+            display: inline-block;
+            vertical-align: top;
+            margin: 0vw;
+            margin-right: 4.57vw;
+            padding: 0vw;
+            padding-top: 0.214vw;    
+
+            div{            
+                width: 19.9vw;
+                height: 0.571vw;
+                background-color: rgb(40,97,145);            
+            }
+            p{
+                width: 20.8vw;
+                font-family: monospace;            
+                font-size: 2.1vw;
+                color: rgb(40,97,145);
+            }
+        }
+
+        #infoText{
+            display: inline-block;
+            width: 53.2vw;
+            margin: 0vw;
+            padding: 0vw;
+
+            p{
+                font-family: sans-serif;            
+                font-size: 1.7vw;
+            }
+
+        }
+    }
+
+    #contentBlockC{
+        height: 56.3vw;
+        padding-top: 6.21vw;
+        padding-bottom: 0vw;
+        margin-bottom: 0vw;
+        background-image: url(imageAssets/clients_bg.jpg); 
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        p{
+            width: 24.5vw;
+            height: 2.14vw;
+            margin: auto;
+
+            margin-bottom: 1.5vw;
+            text-align: center;
+            line-height: 100%;        
+            font-family: monospace;        
+            font-size: 3vw;
+            color: rgb(255,255,255);  
+        }
+        #lineD{
+            height: 0.0714vw;
+            width: 24.5vw;
+            margin: auto;
+            margin-bottom: 5.71vw;
+            background-color: rgb(255,255,255);
+        }     
+        .col{       
+            width: 16.1vw;
+            height: 16.1vw;
+            margin: 0 0.679vw;        
+            background-color: rgb(33,50,65);        
+        }    
+        #row2{
+            .col{
+                margin-top: 1.21vw;
+            }
+        }
+        .logoImg{
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    #contactBlock{
+        height: 37.6vw;    
+        padding-left: 13.4vw;
+        padding-top: 6.71vw;
+
+        #contactText{
+            display: inline-block;
+            width: 43.2vw;
+            height: 26.8vw;
+            #subtitleCon{
+                width: 43.2vw;
+                height: 2.5vw;            
+                margin-bottom: 1.42vw;
+                line-height: 100%;  
+                text-align: center;             
+                font-family: monospace;        
+                font-size: 2.6vw;
+                color: rgb(30,47,62); 
+            }
+            div{
+                height: 0.0714vw;
+                width: 43.2vw;       
+                margin-bottom: 3.64vw;
+                background-color: rgb(30,47,62);
+            }        
+            .text{     
+                display: inline-block;
+                margin-right: 23vw;
+                font-size: 1.3vw;            
+                color: rgb(30,47,62); 
+            }
+            .boldText{
+                display: inline-block;
+                font-family: monospace;       
+                font-size: 1.5vw;            
+                color: rgb(30,47,62); 
+            }
+            #textBlock{
+                width: 43.2vw;
+                margin: 0vw;
+                margin-bottom: 3vw;
+            }
+        }    
+        #contactForm{         
+            width: 24.1vw;
+            display: inline-block;
+            margin: 0vw;
+            margin-left: 2.84vw;
+            padding-top: 1.65vw;
+            vertical-align: top;
+
+            input{
+                width: 24.4vw;
+                height: 3.79vw;
+                margin-bottom: 1.21vw;
+                padding: 1.21vw 1.36vw;
+                border: 0vw;
+                background-color: rgb(242,243,243);             
+                box-shadow: 0 4px 2px -2px gray;
+            }
+            #messageI{
+                width: 24.4vw;
+                height: 6.71vw;     
+                margin-bottom: 1.21vw;
+                padding: 1.21vw 1.36vw;
+                border: 0vw;
+                background-color: rgb(242,243,243);             
+                box-shadow: 0 4px 2px -2px gray;
+
+            }
+            #submitB{
+                background-color: rgb(40,97,145);
+                color: rgb(255,255,255);           
+            }
+            *::-webkit-input-placeholder {
+                color: rgb(87,99,110);
+            }
+            *:-moz-placeholder {            
+                color: rgb(87,99,110);
+            }
+            *::-moz-placeholder {            
+                color: rgb(87,99,110);
+            }
+            *:-ms-input-placeholder {            
+                color: rgb(87,99,110);
+            }
+        }    
+    }
+
+    .footer{
+        padding: 2.86vw 14.3vw;
+        background-color: rgb(33,50,65);    
+
+        p{
+            color: rgb(255,255,255);
+            font-size: 1.1vw;
+        }
+        .footerPA{
+            float: left;
+        }
+        .footerPB{
+            float: right;
+        }
+    }
 }
 @media (min-width: $screen-md-min) and (max-width: $screen-md-max){
+    .socialMediaBanner{
+        position: absolute;
+        z-index: 5;
+        top: 0vw;
+        left :0vw;
+        width: auto;
+        margin: 1.57vw 1vw;        
+        padding: 0vw;        
+    }
     
+    .socialMediaIcon{
+        display: inline-block;
+        max-width: 5vw;
+        max-height: 5vw;
+        margin: 0vw 0.393vw;        
+        padding: 0vw;        
+    }
+
+    .contentBlock{
+        position: relative;
+        z-index: 1;
+        width: 100vw;    
+        margin: 0vw;
+        padding: 0vw 13.4vw;        
+    }
+
+    #contentBlockA{
+        height: 45.5vw;
+        background-image: url(imageAssets/header_bg.jpg); 
+        background-repeat: no-repeat;
+        background-size: contain;
+
+        img{
+            width: 14vw;
+            height: 8.43vw;
+            margin: 0 28.8vw;
+            margin-top: 11.5vw;
+            margin-bottom: 5.14vw;
+            padding: 0vw;        
+        }
+        p{
+            width: 43.9vw;
+            height: 5.71vw;
+            margin: 0 14.7vw;
+            text-align: center;
+            line-height: 100%;        
+            font-family: monospace;        
+            font-size: 2.6vw;
+            color: rgb(255,255,255);       
+        }
+        div{
+            width: 43.9vw;
+            height: 0.0714vw;
+            margin: 0 14.7vw;
+            margin-top: 2.21vw;      
+            background-color: rgb(255,255,255);
+        }
+    }
+
+    #contentBlockB{  
+        margin: 0vw;   
+        background-color: rgb(255,255,255);
+        padding-top: 5.93vw;
+        padding-bottom: 9.57vw;  
+                
+
+        #subtitleB{
+            display: inline-block;
+            width: 100%;        
+            margin: 0vw;         
+            padding: 0vw;
+            padding-top: 0.214vw;  
+            align-content: center;
+
+            div{            
+                width: 19.9vw;
+                height: 0.571vw;
+                margin: auto;
+                background-color: rgb(40,97,145);            
+            }
+            p{
+                width: 20.8vw;
+                margin: auto;
+                text-align: center;
+                font-family: monospace;            
+                font-size: 2.1vw;
+                color: rgb(40,97,145);
+            }
+        }
+
+        #infoText{
+            display: inline-block;
+            width: 100%;
+            margin: 0vw;
+            margin-top: 1vw;
+            padding: 0vw;
+
+            p{
+                margin: auto;
+                text-align: center;
+                font-family: sans-serif;            
+                font-size: 1.7vw;
+            }
+
+        }
+    }
+
+    #contentBlockC{
+        height: 56.3vw;
+        padding-top: 6.21vw;
+        padding-bottom: 0vw;
+        margin-bottom: 0vw;
+        background-image: url(imageAssets/clients_bg.jpg); 
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        p{
+            width: 24.5vw;
+            height: 2.14vw;
+            margin: auto;
+
+            margin-bottom: 1.5vw;
+            text-align: center;
+            line-height: 100%;        
+            font-family: monospace;        
+            font-size: 3vw;
+            color: rgb(255,255,255);  
+        }
+        #lineD{
+            height: 0.0714vw;
+            width: 24.5vw;
+            margin: auto;
+            margin-bottom: 5.71vw;
+            background-color: rgb(255,255,255);
+        }     
+        .col{       
+            width: 16.1vw;
+            height: 16.1vw;
+            margin: 0 0.679vw;        
+            background-color: rgb(33,50,65);        
+        }    
+        #row2{
+            .col{
+                margin-top: 1.21vw;
+            }
+        }
+        .logoImg{
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    #contactBlock{
+        height: auto;    
+        padding-left: 13.4vw;
+        padding-top: 6.71vw;
+        align-content: center;
+        
+        #contactText{
+            display: block;
+            width: 65vw;
+            height: auto;
+            margin: auto;
+            
+            #subtitleCon{
+                width: auto;
+                height: 2.5vw;            
+                margin-bottom: 1.42vw;
+                line-height: 100%;  
+                text-align: center;             
+                font-family: monospace;        
+                font-size: 2.6vw;
+                color: rgb(30,47,62); 
+            }
+            div{
+                height: 0.0714vw;
+                width: 43.2vw;       
+                margin-bottom: 3.64vw;
+                background-color: rgb(30,47,62);
+            }        
+            .text{     
+                display: inline-block;
+                margin-right: 35vw;
+                font-size: 2vw;            
+                color: rgb(30,47,62); 
+            }
+            .boldText{
+                display: inline-block;
+                font-family: monospace;       
+                font-size: 2.1vw;            
+                color: rgb(30,47,62); 
+            }
+            #textBlock{
+                width: auto;
+                margin: 0vw;
+                margin-bottom: 3vw;
+                font-size: 2vw;   
+            }
+        }    
+        #contactForm{         
+            width:  50vw;
+            display: block;
+            margin: auto;            
+            padding-top: 1.65vw;
+            vertical-align: top;
+            
+        
+            input{
+                width: 50vw;
+                height: 8vw;               
+                margin-bottom: 1.21vw;
+                padding: 1.21vw 1.36vw;
+                border: 0vw;
+                background-color: rgb(242,243,243);             
+                box-shadow: 0 4px 2px -2px gray;
+                font-size: 2vw;
+            }
+            #messageI{
+                width: 50vw;
+                height: 15vw;     
+                margin-bottom: 1.21vw;
+                padding: 1.21vw 1.36vw;
+                border: 0vw;
+                background-color: rgb(242,243,243);             
+                box-shadow: 0 4px 2px -2px gray;
+
+            }
+            #submitB{
+                background-color: rgb(40,97,145);
+                color: rgb(255,255,255);      
+                font-size: 2vw;
+                margin-bottom: 2vw;
+            }
+            *::-webkit-input-placeholder {
+                color: rgb(87,99,110);
+                font-size: 2vw;
+            }
+            *:-moz-placeholder {            
+                color: rgb(87,99,110);
+                font-size: 2vw;
+            }
+            *::-moz-placeholder {            
+                color: rgb(87,99,110);
+                font-size: 2vw;
+            }
+            *:-ms-input-placeholder {            
+                color: rgb(87,99,110);
+                font-size: 2vw;
+            }
+        }    
+    }
+
+    .footer{
+        padding: 2.86vw 14.3vw;
+        background-color: rgb(33,50,65);    
+
+        p{
+            color: rgb(255,255,255);
+            font-size: 1.1vw;
+        }
+        .footerPA{
+            float: left;
+        }
+        .footerPB{
+            float: right;
+        }
+    }
 }
 @media (min-width: $screen-lg-min) {    
     .socialMediaBanner{
@@ -30,237 +545,242 @@ $screen-lg-min: 1200px;
         margin: 0vw 0.393vw;        
         padding: 0vw;        
     }
-}
 
-.contentBlock{
-    position: relative;
-    z-index: 1;
-    width: 100vw;    
-    margin: 0vw;
-    padding: 0vw 13.4vw;        
-}
-
-#contentBlockA{
-    height: 45.5vw;
-    background-image: url(imageAssets/header_bg.jpg); 
-    background-repeat: no-repeat;
-    background-size: contain;
-    
-    img{
-        width: 14vw;
-        height: 8.43vw;
-        margin: 0 28.8vw;
-        margin-top: 11.5vw;
-        margin-bottom: 5.14vw;
-        padding: 0vw;        
-    }
-    p{
-        width: 43.9vw;
-        height: 5.71vw;
-        margin: 0 14.7vw;
-        text-align: center;
-        line-height: 100%;        
-        font-family: monospace;        
-        font-size: 2.6vw;
-        color: rgb(255,255,255);       
-    }
-    div{
-        width: 43.9vw;
-        height: 0.0714vw;
-        margin: 0 14.7vw;
-        margin-top: 2.21vw;      
-        background-color: rgb(255,255,255);
-    }
-}
-
-#contentBlockB{    
-    margin: 0vw;   
-    background-color: rgb(255,255,255);
-    padding-top: 5.93vw;
-    padding-bottom: 9.57vw;    
-    padding-right: 0vw;
-    
-    #subtitleB{
-        display: inline-block;
-        vertical-align: top;
+    .contentBlock{
+        position: relative;
+        z-index: 1;
+        width: 100vw;    
         margin: 0vw;
-        margin-right: 4.57vw;
-        padding: 0vw;
-        padding-top: 0.214vw;    
-        
-        div{            
-            width: 19.9vw;
-            height: 0.571vw;
-            background-color: rgb(40,97,145);            
+        padding: 0vw 13.4vw;        
+    }
+
+    #contentBlockA{
+        height: 45.5vw;
+        background-image: url(imageAssets/header_bg.jpg); 
+        background-repeat: no-repeat;
+        background-size: contain;
+
+        img{
+            width: 14vw;
+            height: 8.43vw;
+            margin: 0 28.8vw;
+            margin-top: 11.5vw;
+            margin-bottom: 5.14vw;
+            padding: 0vw;        
         }
         p{
-            width: 20.8vw;
-            font-family: monospace;            
-            font-size: 2.1vw;
-            color: rgb(40,97,145);
-        }
-    }
-    
-    #infoText{
-        display: inline-block;
-        width: 53.2vw;
-        margin: 0vw;
-        padding: 0vw;
-        
-        p{
-            font-family: sans-serif;            
-            font-size: 1.7vw;
-        }
-        
-    }
-}
-
-#contentBlockC{
-    height: 56.3vw;
-    padding-top: 6.21vw;
-    padding-bottom: 0vw;
-    margin-bottom: 0vw;
-    background-image: url(imageAssets/clients_bg.jpg); 
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-    p{
-        width: 24.5vw;
-        height: 2.14vw;
-        margin: auto;
-        
-        margin-bottom: 1.5vw;
-        text-align: center;
-        line-height: 100%;        
-        font-family: monospace;        
-        font-size: 3vw;
-        color: rgb(255,255,255);  
-    }
-    #lineD{
-        height: 0.0714vw;
-        width: 24.5vw;
-        margin: auto;
-        margin-bottom: 5.71vw;
-        background-color: rgb(255,255,255);
-    }     
-    .col{       
-        width: 16.1vw;
-        height: 16.1vw;
-        margin: 0 0.679vw;        
-        background-color: rgb(33,50,65);        
-    }    
-    #row2{
-        .col{
-            margin-top: 1.21vw;
-        }
-    }
-    .logoImg{
-        width: 100%;
-        height: auto;
-    }
-}
-
-#contactBlock{
-    height: 37.6vw;    
-    padding-left: 13.4vw;
-    padding-top: 6.71vw;
-    
-    #contactText{
-        display: inline-block;
-        width: 43.2vw;
-        height: 26.8vw;
-        #subtitleCon{
-            width: 43.2vw;
-            height: 2.5vw;            
-            margin-bottom: 1.42vw;
-            line-height: 100%;  
-            text-align: center;             
+            width: 43.9vw;
+            height: 5.71vw;
+            margin: 0 14.7vw;
+            text-align: center;
+            line-height: 100%;        
             font-family: monospace;        
             font-size: 2.6vw;
-            color: rgb(30,47,62); 
+            color: rgb(255,255,255);       
         }
         div{
+            width: 43.9vw;
             height: 0.0714vw;
-            width: 43.2vw;       
-            margin-bottom: 3.64vw;
-            background-color: rgb(30,47,62);
-        }        
-        .text{     
-            display: inline-block;
-            margin-right: 23vw;
-            font-size: 1.3vw;            
-            color: rgb(30,47,62); 
+            margin: 0 14.7vw;
+            margin-top: 2.21vw;      
+            background-color: rgb(255,255,255);
         }
-        .boldText{
-            display: inline-block;
-            font-family: monospace;       
-            font-size: 1.5vw;            
-            color: rgb(30,47,62); 
-        }
-        #textBlock{
-            width: 43.2vw;
-            margin: 0vw;
-            margin-bottom: 3vw;
-        }
-    }    
-    #contactForm{         
-        width: 24.1vw;
-        display: inline-block;
-        margin: 0vw;
-        margin-left: 2.84vw;
-        padding-top: 1.65vw;
-        vertical-align: top;
-        
-        input{
-            width: 24.4vw;
-            height: 3.79vw;
-            margin-bottom: 1.21vw;
-            padding: 1.21vw 1.36vw;
-            border: 0vw;
-            background-color: rgb(242,243,243);             
-            box-shadow: 0 4px 2px -2px gray;
-        }
-        #messageI{
-            width: 24.4vw;
-            height: 6.71vw;     
-            margin-bottom: 1.21vw;
-            padding: 1.21vw 1.36vw;
-            border: 0vw;
-            background-color: rgb(242,243,243);             
-            box-shadow: 0 4px 2px -2px gray;
-                  
-        }
-        #submitB{
-            background-color: rgb(40,97,145);
-            color: rgb(255,255,255);           
-        }
-        *::-webkit-input-placeholder {
-            color: rgb(87,99,110);
-        }
-        *:-moz-placeholder {            
-            color: rgb(87,99,110);
-        }
-        *::-moz-placeholder {            
-            color: rgb(87,99,110);
-        }
-        *:-ms-input-placeholder {            
-            color: rgb(87,99,110);
-        }
-    }    
-}
+    }
 
-.footer{
-    padding: 2.86vw 14.3vw;
-    background-color: rgb(33,50,65);    
-    
-    p{
-        color: rgb(255,255,255);
-        font-size: 1.1vw;
+    #contentBlockB{    
+        margin: 0vw;   
+        background-color: rgb(255,255,255);
+        padding-top: 5.93vw;
+        padding-bottom: 9.57vw;    
+        padding-right: 0vw;
+
+        #subtitleB{
+            display: inline-block;
+            vertical-align: top;
+            margin: 0vw;
+            margin-right: 4.57vw;
+            padding: 0vw;
+            padding-top: 0.214vw;    
+
+            div{            
+                width: 19.9vw;
+                height: 0.571vw;
+                background-color: rgb(40,97,145);            
+            }
+            p{
+                width: 20.8vw;
+                font-family: monospace;            
+                font-size: 2.1vw;
+                color: rgb(40,97,145);
+            }
+        }
+
+        #infoText{
+            display: inline-block;
+            width: 53.2vw;
+            margin: 0vw;
+            padding: 0vw;
+
+            p{
+                font-family: sans-serif;            
+                font-size: 1.7vw;
+            }
+
+        }
     }
-    .footerPA{
-        float: left;
+
+    #contentBlockC{
+        height: 56.3vw;
+        padding-top: 6.21vw;
+        padding-bottom: 0vw;
+        margin-bottom: 0vw;
+        background-image: url(imageAssets/clients_bg.jpg); 
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        p{
+            width: 24.5vw;
+            height: 2.14vw;
+            margin: auto;
+
+            margin-bottom: 1.5vw;
+            text-align: center;
+            line-height: 100%;        
+            font-family: monospace;        
+            font-size: 3vw;
+            color: rgb(255,255,255);  
+        }
+        #lineD{
+            height: 0.0714vw;
+            width: 24.5vw;
+            margin: auto;
+            margin-bottom: 5.71vw;
+            background-color: rgb(255,255,255);
+        }     
+        .col{       
+            width: 16.1vw;
+            height: 16.1vw;
+            margin: 0 0.679vw;        
+            background-color: rgb(33,50,65);        
+        }    
+        #row2{
+            .col{
+                margin-top: 1.21vw;
+            }
+        }
+        .logoImg{
+            width: 100%;
+            height: auto;
+        }
     }
-    .footerPB{
-        float: right;
+
+    #contactBlock{
+        height: 37.6vw;    
+        padding-left: 13.4vw;
+        padding-top: 6.71vw;
+
+        #contactText{
+            display: inline-block;
+            width: 43.2vw;
+            height: 26.8vw;
+            #subtitleCon{
+                width: 43.2vw;
+                height: 2.5vw;            
+                margin-bottom: 1.42vw;
+                line-height: 100%;  
+                text-align: center;             
+                font-family: monospace;        
+                font-size: 2.6vw;
+                color: rgb(30,47,62); 
+            }
+            div{
+                height: 0.0714vw;
+                width: 43.2vw;       
+                margin-bottom: 3.64vw;
+                background-color: rgb(30,47,62);
+            }        
+            .text{     
+                display: inline-block;
+                margin-right: 23vw;
+                font-size: 1.3vw;            
+                color: rgb(30,47,62); 
+            }
+            .boldText{
+                display: inline-block;
+                font-family: monospace;       
+                font-size: 1.5vw;            
+                color: rgb(30,47,62); 
+            }
+            #textBlock{
+                width: 43.2vw;
+                margin: 0vw;
+                margin-bottom: 3vw;
+            }
+        }    
+        #contactForm{         
+            width: 24.1vw;
+            display: inline-block;
+            margin: 0vw;
+            margin-left: 2.84vw;
+            padding-top: 1.65vw;
+            vertical-align: top;
+
+            input{
+                width: 24.4vw;
+                height: 3.79vw;
+                margin-bottom: 1.21vw;
+                padding: 1.21vw 1.36vw;
+                border: 0vw;
+                background-color: rgb(242,243,243);             
+                box-shadow: 0 4px 2px -2px gray;
+            }
+            #messageI{
+                width: 24.4vw;
+                height: 6.71vw;     
+                margin-bottom: 1.21vw;
+                padding: 1.21vw 1.36vw;
+                border: 0vw;
+                background-color: rgb(242,243,243);             
+                box-shadow: 0 4px 2px -2px gray;
+
+            }
+            #submitB{
+                background-color: rgb(40,97,145);
+                color: rgb(255,255,255);      
+                font-size: 1.1vw;
+            }
+            *::-webkit-input-placeholder {
+                color: rgb(87,99,110);
+                font-size: 1.1vw;
+            }
+            *:-moz-placeholder {            
+                color: rgb(87,99,110);
+                font-size: 1.1vw;
+            }
+            *::-moz-placeholder {            
+                color: rgb(87,99,110);
+                font-size: 1.1vw;
+            }
+            *:-ms-input-placeholder {            
+                color: rgb(87,99,110);
+                font-size: 1.1vw;
+            }
+        }    
+    }
+
+    .footer{
+        padding: 2.86vw 14.3vw;
+        background-color: rgb(33,50,65);    
+
+        p{
+            color: rgb(255,255,255);
+            font-size: 1.1vw;
+        }
+        .footerPA{
+            float: left;
+        }
+        .footerPB{
+            float: right;
+        }
     }
 }
